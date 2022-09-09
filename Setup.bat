@@ -1,5 +1,5 @@
 @echo off
-curl -o install.exe https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe
+curl -o install.exe https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
 install.exe /quiet
 del install.exe
 pip install playsound
