@@ -3,9 +3,9 @@ import os
 from playsound import playsound
 
 
-shutdown = input("Veux tu éteindre ton ordinateur ? (oui / non): ")
+shutdown = input("Do you want to shutwown your pc ? (yes / no): ")
   
-if shutdown == 'oui':  
+if shutdown == 'yes':  
     playsound('Outro.mp3', False)
     for i in range(16):
         print(15-i,"s")
