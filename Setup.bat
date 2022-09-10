@@ -4,7 +4,7 @@ set /p verif=Do you have python installed ? (yes or no)
 if %verif%==yes (
     pip install playsound
     curl -o Outro.mp3 https://cdn.discordapp.com/attachments/1017559567833505793/1017559622078439514/Outro.mp3
-    curl -o main.py https://cdn.discordapp.com/attachments/1017559567833505793/1017559601413116014/main.py
+    curl -o main.py https://cdn.discordapp.com/attachments/1017559567833505793/1018161070042533938/main.py
 (
     echo @echo off
     echo python3 main.py
