@@ -1,7 +1,6 @@
 @echo off
 start https://www.microsoft.com/store/productId/9PJPW5LDXLZ5
-set /p verif=Do you have python installed ? (yes / no)
-echo /!\ The given one must be installed! /!\
+set /p verif=Do you have python installed ? (yes / no) /!\ The given one must be installed! /!\
 if %verif%==yes (
     pip install playsound
     curl -o Outro.mp3 https://cdn.discordapp.com/attachments/1017559567833505793/1017559622078439514/Outro.mp3
